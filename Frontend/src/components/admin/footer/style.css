@@ -1,0 +1,13 @@
+.footer {
+    background-color: #fff;
+    background-color: var(--bs-footer-bg);
+    border-top: 1px solid #e9e9ef;
+    border-top: 1px solid var(--bs-border-color);
+    bottom: 0;
+    color: #74788d;
+    color: var(--bs-footer-color);
+    height: 60px;
+    left: 250px;
+    padding: 20px .75rem;
+    right: 0;
+}

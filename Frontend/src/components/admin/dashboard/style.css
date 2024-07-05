@@ -1,0 +1,169 @@
+.page-content {
+    padding: calc(70px + 1.5rem) 1.125rem 60px;
+}
+
+.page-title-box {
+    padding-bottom: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+[data-bs-theme=dark] .h1, [data-bs-theme=dark] .h2, [data-bs-theme=dark] .h3, [data-bs-theme=dark] .h4, [data-bs-theme=dark] .h5, [data-bs-theme=dark] .h6, [data-bs-theme=dark] h1, [data-bs-theme=dark] h2, [data-bs-theme=dark] h3, [data-bs-theme=dark] h4, [data-bs-theme=dark] h5, [data-bs-theme=dark] h6 {
+    color: #ced4da;
+    color: var(--bs-gray-400);
+}
+
+.page-title-box .breadcrumb {
+    background-color: initial ;
+    padding: 0;
+}
+
+body[data-bs-theme=dark] .breadcrumb-item>a {
+    color: #adb5bd;
+    color: var(--bs-gray-500);
+}
+
+.breadcrumb-item>a {
+    color: #313533;
+    color: var(--bs-gray-700);
+}
+
+body[data-bs-theme=dark] .breadcrumb-item.active {
+    color: #ced4da;
+    color: var(--bs-gray-400);
+}
+
+.breadcrumb-item.active {
+    color: var(--bs-breadcrumb-item-active-color);
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: var(--bs-breadcrumb-item-padding-x);
+}
+
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
+.card-body {
+    color: var(--bs-card-color);
+    flex: 1 1 auto;
+    overflow: hidden;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #313533bf!important;
+    color: var(--bs-secondary-color)!important;
+}
+
+.apex-charts {
+    min-height: 10px!important;
+}
+
+.apex-charts .apexcharts-canvas {
+    margin: 0 auto;
+}
+
+.apexcharts-canvas {
+    position: relative;
+    user-select: none;
+}
+
+.apexcharts-inner {
+    position: relative;
+}
+
+.apexcharts-xcrosshairs, .apexcharts-ycrosshairs {
+    pointer-events: none;
+    opacity: 0;
+    transition: .15s ease all;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: none;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    transition: transform .6s ease-in-out;
+    width: 100%;
+}
+
+.card {
+    --bs-card-spacer-y: 1.25rem;
+    --bs-card-spacer-x: 1.25rem;
+    --bs-card-title-spacer-y: .5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-card-cap-padding-y: 1.25rem;
+    --bs-card-cap-padding-x: 1.25rem;
+    --bs-card-cap-bg: var(--bs-secondary-bg);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-secondary-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: .75rem;
+    word-wrap: break-word;
+    background-clip: initial;
+    background-color:#2c302e !important;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    color: #313533;
+    color: var(--bs-body-color);
+    display: flex;
+    flex-direction: column;
+    height: var(--bs-card-height);
+    min-width: 0;
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        margin-left: 0 !important;
+    }
+}
+
+.breadcrumb {
+    --bs-breadcrumb-padding-x: 1rem;
+    --bs-breadcrumb-padding-y: .75rem;
+    --bs-breadcrumb-margin-bottom: 1rem;
+    --bs-breadcrumb-bg: ;
+    --bs-breadcrumb-border-radius: ;
+    --bs-breadcrumb-divider-color: var(--bs-secondary-color);
+    --bs-breadcrumb-item-padding-x: .5rem;
+    --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
+    background-color: var(--bs-breadcrumb-bg);
+    border-radius: var(--bs-breadcrumb-border-radius);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--bs-breadcrumb-font-size);
+    list-style: none;
+    margin-bottom: var(--bs-breadcrumb-margin-bottom);
+    padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
+}
