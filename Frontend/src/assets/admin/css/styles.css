@@ -199,6 +199,7 @@ ul li{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
+    overflow-x: clip;
     flex-direction: column;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
