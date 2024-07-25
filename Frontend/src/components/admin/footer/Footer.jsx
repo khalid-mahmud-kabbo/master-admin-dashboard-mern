@@ -1,21 +1,24 @@
-import React from "react";
-import './style.css'
+import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="container-fluid">
+    <footer className="footer__area">
+    <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6">2024 © EK Softwares.</div>
-          <div className="col-md-6">
-            <div className="text-sm-end d-none d-sm-block">
-              EK Softwares
+            <div className="col-md-12">
+                <div className="footer__copyright">
+                    <div className="footer__copyright__left">
+                        <h2>2024 © EK Softwares</h2>
+                    </div>
+                    <div className="footer__copyright__right">
+                        <h2>Developed By EK Softwares</h2>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-  );
-};
+    </div>
+</footer>
+  )
+}
 
-export default Footer;
+export default Footer

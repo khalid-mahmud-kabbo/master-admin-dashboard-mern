@@ -1,0 +1,11 @@
+@media screen and (max-width: 1199px) {
+    .sidebar__area.active {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .sidebar__close {
+        display: block !important;
+    }
+}

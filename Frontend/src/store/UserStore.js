@@ -37,12 +37,9 @@ export const useUserStore = create((set) => ({
 		}
 	},
 
-	// MoreData: [],
-	// setMoreData: async () => {
-	// 	const data = await axios.get(`${BaseURL}/`);
-	// 	let res = data.data.data;
-	// 	set({ MoreData: res });
-	// },
+	isSidebarActive: false,
+	setIsSidebarActive: (isSidebarActive) => set({ isSidebarActive }),
+
 
 
 }));
