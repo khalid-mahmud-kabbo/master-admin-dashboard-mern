@@ -10,17 +10,6 @@
     transition: 0.4s;
 }
 
-@media screen and (max-width: 1199px) {
-    .sidebar__area.active {
-        width: 250px;
-    }
-}
-
-@media screen and (max-width: 1199px) {
-    .sidebar__close {
-        display: block !important;
-    }
-}
 
 .sidebar__close button {
     border: 0;
@@ -33,7 +22,6 @@
 .sidebar__area.active {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
-    /* width: 60px; */
 }
 
 .sidebar__close {
@@ -134,13 +122,6 @@ img {
     transition-timing-function: ease;
     transition-duration: .35s;
     transition-property: height,visibility;
-}
-
-@media screen and (max-width: 1199px) {
-    .sidebar__area {
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
 }
 
 .sidebar__menu ul li a {
