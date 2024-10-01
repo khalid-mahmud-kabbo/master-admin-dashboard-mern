@@ -1,6 +1,6 @@
-import Sidebar from "../admin/sidebar/Sidebar";
-import Header from "../admin/header/Header";
-import Footer from "../admin/footer/Footer";
+import Sidebar from "../admin/common/sidebar/Sidebar";
+import Header from "../admin/common/header/Header";
+import Footer from "../admin/common/footer/Footer";
 
 export const AdminLayout = (props) => {
   return (

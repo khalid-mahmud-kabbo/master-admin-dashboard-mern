@@ -39,7 +39,4 @@ export const useUserStore = create((set) => ({
 
 	isSidebarActive: false,
 	setIsSidebarActive: (isSidebarActive) => set({ isSidebarActive }),
-
-
-
 }));

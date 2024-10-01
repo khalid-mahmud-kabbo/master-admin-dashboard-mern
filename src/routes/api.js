@@ -19,5 +19,7 @@ router.get("/verifyEmail/:email", UserController.verifyEmail);
 router.get("/verifyOTP/:email/:otp", UserController.verifyOTP);
 
 
+const ProjectController = require('../controllers/ProjectController')
+
 
 module.exports = router;

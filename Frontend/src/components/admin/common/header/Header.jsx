@@ -1,6 +1,7 @@
 import React from 'react';
-import { useUserStore } from '../../../store/UserStore';
-import API_DATA from '../../../constants/en';
+import { useUserStore } from '../../../../store/UserStore';
+import API_DATA from '../../../../constants/en';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -16,26 +17,26 @@ const Header = () => {
                         <button className="sidebar-toggler" onClick={() => setIsSidebarActive(!isSidebarActive)}>
                             <img src={`${API_DATA.DOMAIN}/assets/icons/bars.svg`} alt="bars" />
                         </button>
-                        <a href="http://127.0.0.1:8000" target="_blank" className="btn btn-primary text-white">Visit Site</a>
+                        <Link to={`${API_DATA.DOMAIN}`} target="_blank" className="btn btn-success text-white">Visit Site</Link>
                     </div>
                     <div className="header__navbar__right">
                         <ul className="header__menu">
                             <li>
-                                <a href="#" className="btn btn-dropdown user-profile" data-bs-toggle="dropdown">
-                                    <img src="http://127.0.0.1:8000/uploaded_files/admin_profile/6693e25d6e1b91720967773.png" alt="icon" />
-                                </a>
+                                <Link to={`${API_DATA.DOMAIN}`} className="btn btn-dropdown user-profile" data-bs-toggle="dropdown">
+                                    <img src={`${API_DATA.DOMAIN}/uploaded_files/user.png`} alt="icon" />
+                                </Link>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <a className="dropdown-item" href="http://127.0.0.1:8000/admin/profile">
-                                            <img src="http://127.0.0.1:8000/admin/images/icons/user.svg" alt="icon" />
+                                        <Link className="dropdown-item" to={`${API_DATA.DOMAIN}/profile`}>
+                                            <img src={`${API_DATA.DOMAIN}/assets/icons/user.svg`} alt="icon" />
                                             <span>Profile</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                                            <img src="http://127.0.0.1:8000/admin/images/icons/logout.svg" alt="icon" />
+                                        <Link className="dropdown-item" to={`${API_DATA.DOMAIN}/logout`} data-bs-toggle="modal" data-bs-target="#logoutModal">
+                                            <img src={`${API_DATA.DOMAIN}/assets/icons/logout.svg`} alt="icon" />
                                             <span>Logout</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>

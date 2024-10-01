@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DashboardPage from "./pages/admin/DashboardPage.jsx";
-import ProductListPage from "./pages/admin/ProductListPage.jsx";
 import { useUserStore } from "./store/UserStore.js";
 
 function App() {
@@ -28,8 +27,7 @@ function App() {
 				{isLoggedIn && (
 					<>
 				 */}
-				<Route path="/" element={<DashboardPage />} />
-				<Route path="/products" element={<ProductListPage />} />
+				<Route path="/admin/dashboard" element={<DashboardPage />} />
 {/* 				
 				</>
 				)}
