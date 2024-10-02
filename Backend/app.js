@@ -46,7 +46,7 @@ mongoose.connect(process.env.MONGO_URI, {
 })
 
 
-const router = require('./src/routes/api');
+const router = require('./routes/api');
 
 app.use("/api/v1", router);
 

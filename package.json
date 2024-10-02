@@ -2,7 +2,7 @@
 	"name": "ek-softwares",
 	"version": "1.0.0",
 	"description": "",
-	"main": "server.js",
+	"main": "Backend/server.js",
 	"dependencies": {
 		"axios": "^1.6.8",
 		"bcryptjs": "^2.4.3",

@@ -31,7 +31,7 @@ const Sidebar = () => {
         <li>
           <Link to={`${API_DATA.DOMAIN}/admin/dashboard`} aria-expanded="true">
             <i className="fa-solid fa-gauge-high"></i>
-            <span>Dashboard</span>
+            <span className="dashboard-menu">Dashboard</span>
           </Link>
         </li>
 
@@ -92,7 +92,7 @@ const Sidebar = () => {
 
           <li>
             <Link className="has-arrow" to="#" aria-expanded="">
-              <i class="fa-solid fa-bullhorn"></i>
+              <i className="fa-solid fa-bullhorn"></i>
               <span>Marketing</span>
             </Link>
             <ul>

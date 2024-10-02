@@ -3,7 +3,7 @@
     z-index: 9999;
     top: 0;
     left: 0;
-    width: 260px;
+    width: 270px;
     height: 100vh;
     background-color: #222f3e;
     /* -webkit-transition: 0.4s !important; */
@@ -83,9 +83,6 @@ img {
     transition: 0.33s;
 }
 
-.sidebar__menu li a span {
-    margin-left: 13px;
-}
 
 .sidebar__menu li:not(:first-child) {
     margin-top: 0px;
@@ -147,16 +144,16 @@ img {
     font-size: larger;
 }
 
-.sidebar__menu li a span {
-    margin-left: 13px;
-    font-size: medium;
+.sidebar__menu .dashboard-menu {
+    margin-left: 11px !important;
+    font-size: medium !important;
 }
 
 
 
 .sidebar__menu ul li a span {
-    margin-left: 11px;
-    font-size: medium;
+    margin-left: 11px !important;
+    font-size: medium !important;
 }
 
 
